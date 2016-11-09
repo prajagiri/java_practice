@@ -12,6 +12,8 @@ package Student_marks;
 public class Student {
     private int studentId;
     private int studentMarks;
+    private int branchList[] = {1001, 1002, 1003, 1004, 1005};
+    private int feeList[] = {25575,15500,33750,8350,20500};
 
     public Student() {
         this.studentId = 0;
